@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">       
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./index.css">
+    <title>tobi codes</title>
+
+</head>
+<body> 
+    <nav id="home" class="scrollspy">
+        <div class="nav-wrapper container" >
+            <a href="#home" class="brand-logo">Code-Space</a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                <i class="material-icons">dehaze</i>
+            </a>
+            <div class="nav">
+                <ul id="nav-mobile pink lighten-1" class="right hide-on-med-and-down">
+                    <li class=""><a href="./index.html">Home</a></li>
+                    <li class=""><a href="./projects.html">Projects</a></li>
+                    <li class=""><a href="./blog.html">Blog</a></li>
+                    <li class=""><a href="./projects.html">Desk</a></li>
+                </ul> 
+            </div>
+        </div>
+        <!-- side navbar for medium anrd small screns -->
+          <ul class="sidenav pink lighten-1" id="mobile-menu">
+            <li class=""><a href="#about">Home</a></li>
+            <li class=""><a href="#projects">Projects</a></li>
+            <li class=""><a href="#blog">Blog</a></li>
+            <li class=""><a href="#desk">Desk</a></li>
+        </ul>
+    </nav>
+    
+
+   
+
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.sidenav').sidenav();  
+        $('.materialboxed').materialbox();
+        $('.parallax').parallax(); 
+        $('.scrollspy').scrollSpy();
+        $('.carousel').carousel();
+    });
+</script>
+</body>
+</html>
